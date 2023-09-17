@@ -6,7 +6,7 @@ import numpy as np
 import time
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+# app.secret_key = os.urandom(24)
 
 
 label_path = 'aiy_plants_V1_labelmap.csv'
