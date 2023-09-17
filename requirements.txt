@@ -7,3 +7,4 @@ numpy==1.21.6
 Pillow==9.2.0
 tflite-runtime==2.7.0
 Werkzeug==2.1.2
+gunicorn==20.0.4
