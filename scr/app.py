@@ -9,8 +9,8 @@ app = Flask(__name__)
 # app.secret_key = os.urandom(24)
 
 
-label_path = 'src/aiy_plants_V1_labelmap.csv'
-model_path = 'src/lite-model_aiy_vision_classifier_plants_V1_3.tflite'
+label_path = 'scr/aiy_plants_V1_labelmap.csv'
+model_path = 'scr/lite-model_aiy_vision_classifier_plants_V1_3.tflite'
 
 def load_labels(path): # Read the labels from the text file as a Python list.
   with open(path, 'r') as f:
